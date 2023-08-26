@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("Not running on PORT " + 3000);
+    console.log("Now running on PORT " + 3000);
 })
