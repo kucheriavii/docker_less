@@ -5,7 +5,7 @@ const app = express()
 const post = 3000;
 
 app.get("/", (req, res) => {
-    res.send("Good bye world! Pizdychka!")
+    res.send("Good bye world!")
 })
 
 app.listen(post, () => {
